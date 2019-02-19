@@ -1,4 +1,4 @@
-package info.krushik.architectureexample;
+package info.krushik.architectureexample.data;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;

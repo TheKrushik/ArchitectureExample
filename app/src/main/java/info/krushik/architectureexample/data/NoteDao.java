@@ -1,4 +1,4 @@
-package info.krushik.architectureexample;
+package info.krushik.architectureexample.data;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.persistence.room.Dao;
@@ -10,7 +10,7 @@ import android.arch.persistence.room.Update;
 import java.util.List;
 
 @Dao
-public interface NoteDAO {
+public interface NoteDao {
 
     @Insert
     void insert(Note note);
