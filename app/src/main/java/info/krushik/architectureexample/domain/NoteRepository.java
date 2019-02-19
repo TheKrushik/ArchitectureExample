@@ -1,4 +1,4 @@
-package info.krushik.architectureexample.repository;
+package info.krushik.architectureexample.domain;
 
 import android.app.Application;
 import android.arch.lifecycle.LiveData;
@@ -8,10 +8,10 @@ import java.util.List;
 import info.krushik.architectureexample.data.Note;
 import info.krushik.architectureexample.data.NoteDao;
 import info.krushik.architectureexample.data.NoteDatabase;
-import info.krushik.architectureexample.repository.task.DeleteAllNotesAsyncTask;
-import info.krushik.architectureexample.repository.task.DeleteNoteAsyncTask;
-import info.krushik.architectureexample.repository.task.InsertNoteAsyncTask;
-import info.krushik.architectureexample.repository.task.UpdateNoteAsyncTask;
+import info.krushik.architectureexample.domain.task.DeleteAllNotesAsyncTask;
+import info.krushik.architectureexample.domain.task.DeleteNoteAsyncTask;
+import info.krushik.architectureexample.domain.task.InsertNoteAsyncTask;
+import info.krushik.architectureexample.domain.task.UpdateNoteAsyncTask;
 
 public class NoteRepository {
     private NoteDao noteDao;

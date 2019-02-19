@@ -1,20 +1,20 @@
-package info.krushik.architectureexample.repository.task;
+package info.krushik.architectureexample.domain.task;
 
 import android.os.AsyncTask;
 
 import info.krushik.architectureexample.data.Note;
 import info.krushik.architectureexample.data.NoteDao;
 
-public class InsertNoteAsyncTask extends AsyncTask<Note, Void, Void> {
+public class DeleteNoteAsyncTask extends AsyncTask<Note, Void, Void> {
     private NoteDao noteDao;
 
-    public InsertNoteAsyncTask(NoteDao noteDao) {
+    public DeleteNoteAsyncTask(NoteDao noteDao) {
         this.noteDao = noteDao;
     }
 
     @Override
     protected Void doInBackground(Note... notes) {
-        noteDao.insert(notes[0]);
+        noteDao.delete(notes[0]);
         return null;
     }
 }

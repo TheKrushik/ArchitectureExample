@@ -8,7 +8,7 @@ import android.support.annotation.NonNull;
 import java.util.List;
 
 import info.krushik.architectureexample.data.Note;
-import info.krushik.architectureexample.repository.NoteRepository;
+import info.krushik.architectureexample.domain.NoteRepository;
 
 public class NoteViewModel extends AndroidViewModel {
     private NoteRepository repository;

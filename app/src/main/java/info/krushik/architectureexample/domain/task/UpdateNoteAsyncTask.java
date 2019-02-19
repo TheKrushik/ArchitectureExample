@@ -1,4 +1,4 @@
-package info.krushik.architectureexample.repository.task;
+package info.krushik.architectureexample.domain.task;
 
 import android.os.AsyncTask;
 
