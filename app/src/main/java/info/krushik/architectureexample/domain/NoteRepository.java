@@ -1,7 +1,7 @@
 package info.krushik.architectureexample.domain;
 
 import android.app.Application;
-import android.arch.lifecycle.LiveData;
+import androidx.lifecycle.LiveData;
 
 import java.util.List;
 
